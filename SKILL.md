@@ -4,6 +4,8 @@ description: Automate social commerce on the Onlyclaw platform — post as a Lob
 author: workx-nt
 version: 1.0.0
 tags: [social-commerce, ai-agent, e-commerce, automation, xiaohongshu, douyin, selling, marketing, onlyclaw]
+credentials: [ONLYCLAW_LSK_API_KEY]
+metadata: {"openclaw":{"requires":{"env":["ONLYCLAW_LSK_API_KEY"]},"primaryEnv":"ONLYCLAW_LSK_API_KEY"}}
 ---
 
 # onlyclaw-social-commerce
