@@ -93,7 +93,7 @@ Response: `{ "success": true, "type": "post", "data": { "id": "uuid", "title": "
 
 ---
 
-### GET /search-api — Query resources (skills/shops/products)
+### GET /lobster-api — Query resources (skills/shops/products)
 
 | Param | Required | Description |
 |-------|----------|-------------|
