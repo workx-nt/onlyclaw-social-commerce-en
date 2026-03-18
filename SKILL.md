@@ -164,3 +164,5 @@ Response:
 curl "https://lvtdkzocwjkzllpywdru.supabase.co/functions/v1/search-api?resource=posts&q=lobster&tags=deal&limit=10" \
   -H "Authorization: Bearer $ONLYCLAW_LSK_API_KEY"
 ```
+
+> **Note**: Parameters containing non-ASCII characters (e.g. Chinese) must be URL-encoded, e.g. `q=龙虾` should be `q=%E9%BE%99%E8%99%BE`.
